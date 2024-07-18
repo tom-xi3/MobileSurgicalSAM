@@ -11,6 +11,7 @@ _ext
 build/
 dist/
 wheels/
+.venv/
 
 # pytorch/python/numpy formats
 *.pth
@@ -24,6 +25,8 @@ model_ts*.txt
 
 # ipython/jupyter notebooks
 **/.ipynb_checkpoints/
+
+logs/
 
 # Editor temporaries
 *.swn

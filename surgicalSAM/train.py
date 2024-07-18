@@ -8,7 +8,7 @@ import numpy as np
 import torch 
 from torch.utils.data import DataLoader
 from dataset import Endovis18Dataset, Endovis17Dataset
-from segment_anything import sam_model_registry
+from mobile_sam import sam_model_registry
 from model import Learnable_Prototypes, Prototype_Prompt_Encoder
 from utils import print_log, create_binary_masks, create_endovis_masks, eval_endovis, read_gt_endovis_masks
 from model_forward import model_forward_function

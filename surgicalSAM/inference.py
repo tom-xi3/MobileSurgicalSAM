@@ -1,6 +1,6 @@
 import sys
 sys.path.append("..")
-from segment_anything import sam_model_registry
+from mobile_sam import sam_model_registry
 import torch 
 from torch.utils.data import DataLoader
 from dataset import Endovis18Dataset, Endovis17Dataset

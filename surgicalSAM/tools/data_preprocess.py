@@ -4,8 +4,8 @@ import os
 import os.path as osp
 import cv2
 import numpy as np
-from segment_anything import sam_model_registry, SamPredictor
-from segment_anything.utils.transforms import ResizeLongestSide
+from mobile_sam import sam_model_registry, SamPredictor
+from mobile_sam.utils.transforms import ResizeLongestSide
 from PIL import Image
 import random 
 import torch 
